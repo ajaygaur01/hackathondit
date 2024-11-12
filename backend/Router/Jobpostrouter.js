@@ -27,9 +27,9 @@ const newjobpost =  await new Job ({
 await newjobpost.save()
 res.status(201).json({
     message: 'jobpost submitted successfully!',
-    data: newraise, // Replace with savedRaise if saving to DB
+    data: newjobpost, // Replace with savedRaise if saving to DB
   });
-
+//
 
 
         } catch (error) {
