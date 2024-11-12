@@ -20,7 +20,7 @@ app.use("/user" , userrouter)
 
 
 try {
-    mongoose.connect("mongodb+srv://devanshsharma1303:devanshsharma1303@cluster0.8b13b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    mongoose.connect("mongodb+srv://devanshsharma1303:devanshsharma1303@cluster0.boy14.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     console.log("db connected")
 } catch (error) {
     console.log(error)
